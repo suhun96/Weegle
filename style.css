@@ -5,16 +5,17 @@
 }
 
 .search {
-    left: 300px;
+    display: block;
+    margin: 0 auto;
     margin-top: 20px;
     position: relative;
-    width: 300px;
+    width: 650px;
 }
 
 .serchBar {
     padding-left: 40px;
     top: 30px;
-    width: 650px;
+    width: 600px;
     height: 40px;
     border: 2px solid rgb(209, 207, 207);
     border-radius: 20px;
@@ -32,7 +33,7 @@
 .fa-keyboard {
     position: absolute;
     font-size: 25px;
-    right: 10px;
+    right: 20px;
     top: 10px;
 }
 
@@ -40,29 +41,33 @@
     position: absolute;
     font-size: 25px;
     top: 10px;
-    right: 10px;
+    right: 60px;
 }
 
 .grayBox {
     display: flex;
-    border: 1px solid black;
+    justify-content: space-around;
     padding: 10px;
-    margin-left: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
     width: 300px;
 }
 .Box1{
-    border: 1px solid black;
+    padding: 8px;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 4px;
+    background-color: #bbb;
 }
+
 .Box2{
-    border: 1px solid black;
+    padding: 8px;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 4px;
+    background-color: #bbb;
 }
 
-.button {
-    border: 1px solid blue;
-    width: 600px;
-
+.eng {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
 }
