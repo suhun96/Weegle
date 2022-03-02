@@ -1,0 +1,68 @@
+.logoImg {
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.search {
+    left: 300px;
+    margin-top: 20px;
+    position: relative;
+    width: 300px;
+}
+
+.serchBar {
+    padding-left: 40px;
+    top: 30px;
+    width: 650px;
+    height: 40px;
+    border: 2px solid rgb(209, 207, 207);
+    border-radius: 20px;
+    
+}
+
+.fa-search {
+    position: absolute;
+    font-size: 25px;
+    left: 10px;
+    top: 10px;
+
+}
+
+.fa-keyboard {
+    position: absolute;
+    font-size: 25px;
+    right: 10px;
+    top: 10px;
+}
+
+.fa-microphone {
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    right: 10px;
+}
+
+.grayBox {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 20px;
+    width: 300px;
+}
+.Box1{
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.Box2{
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.button {
+    border: 1px solid blue;
+    width: 600px;
+
+}
